@@ -33,7 +33,7 @@ router.post("/:id", validatePro, (req, res) => {
       });
   });
 
-  router.put("/:id", validateProId, validateBasicAct, (req, res) => {
+  router.put("/:id", validateProId, (req, res) => {
     const id = req.params.id;
     const updatePro = {
         name: req.body.name,

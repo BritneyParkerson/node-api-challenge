@@ -14,7 +14,9 @@ Go code!
 */
 /* ^^ That made my whole night!*/
 
-const PORT = 1989;
+const server = require("./server.js");
+
+const PORT = 2000;
 server.listen(PORT, () => {
-    console.log(`\n*Server has begun on http://localhost:${PORT}*\n`)
-})
+    console.log(`\n*Server has begun on http://localhost:${PORT}*\n`);
+});
