@@ -12,3 +12,9 @@ I need this code, but don't know where, perhaps should make some middleware, don
 
 Go code!
 */
+/* ^^ That made my whole night!*/
+
+const PORT = 1989;
+server.listen(PORT, () => {
+    console.log(`\n*Server has begun on http://localhost:${PORT}*\n`)
+})
