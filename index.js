@@ -12,10 +12,11 @@ I need this code, but don't know where, perhaps should make some middleware, don
 
 Go code!
 */
+/* ^^ That made my whole night!*/
 
-const server = require("./server.js")
+const server = require("./server.js");
 
 const PORT = 2000;
 server.listen(PORT, () => {
-  console.log(`\n*** Server Running on http://localhost:${PORT} ***\n`);
-}); 
+    console.log(`\n*Server has begun on http://localhost:${PORT}*\n`);
+});
